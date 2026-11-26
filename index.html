@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barefoot in the City | Gabriele Calcagno</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg border-bottom border-secondary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Gabriele Calcagno</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#photos">Photos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
+          <li class="nav-item"><a class="nav-link" href="#credits">Credits</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="border-bottom border-secondary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 d-flex flex-column align-items-start">
+          <p class="text-danger">Turin, June</p>
+          <h1 class="fw-normal">Barefoot in the City</h1>
+          <p class="fs-5">An invitation to claim city space as a living territory shaped by the people who inhabit it.</p>
+          <div class="d-flex flex-wrap">
+            <a class="btn btn-secondary me-2" href="#story">Read the story</a>
+            <a class="btn border border-secondary" href="mailto:gabrielecalcagno05@gmail.com">Write to me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SECTION 1: PHOTOS (filled by JavaScript) -->
+    <section id="photos" class="border-bottom border-secondary py-5">
+      <div class="container">
+        <h2 class="fw-normal mb-4">Photos</h2>
+        <div class="row" id="gallery"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: STORY -->
+    <section id="story" class="border-bottom border-secondary py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="fw-normal mb-4">The story</h2>
+          </div>
+          <div class="col-md-8 d-flex flex-column">
+            <p>It was June, and we were supposed to be studying for exams, so any excuse was good enough to come up with something else. Carletto and I were crashed out in Cavour Gardens (for anyone not from Turin, a super bourgeois park in the historic center) pretty wrecked the morning after a rave in Colletta, when we came up with this. I was barefoot from sunbathing and walked over to get a drink from a drinking fountain a few meters away. What felt completely normal to me caught the attention of several indignant high-society ladies, and half-joking, half-serious, we realized that urban space doesn't necessarily have to be experienced the way it was designed to be—and that we have far more freedom of action than we usually allow ourselves when living our lives inside the rigid routines of how we're "supposed" to inhabit a city.</p>
+            <p>Out of that simple thought, a few days later we packed Tommy's car with props and a few friends and spent a day without putting too many limits on our wild ideas. Everything in these photos is exaggerated and parodic, meant as an invitation to claim city space as a living territory shaped by the people who inhabit it and fed by their vitality. Second, it's also a little jab at bourgeois pearl-clutching—something that always makes us smile when we wander around the city a bit unruly, unbothered by other people's opinions, and just being ourselves.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="credits" class="py-4">
+    <div class="container d-flex flex-wrap justify-content-between">
+      <span>A project by Gabriele Calcagno</span>
+      <a class="link-danger" href="#">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

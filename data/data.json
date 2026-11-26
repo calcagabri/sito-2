@@ -1,0 +1,42 @@
+[
+  {
+    "id": "photo-1",
+    "image": "img/monument.jpeg",
+    "alt": "Friends sunbathing and reading on the base of a monument"
+  },
+  {
+    "id": "photo-2",
+    "image": "img/river.jpeg",
+    "alt": "Friends relaxing on the riverbank, with a stone bridge in the background"
+  },
+  {
+    "id": "photo-3",
+    "image": "img/group.jpeg",
+    "alt": "A group of friends in swimwear standing on the riverbank"
+  },
+  {
+    "id": "photo-4",
+    "image": "img/skates.jpeg",
+    "alt": "A boy and a girl on roller skates holding hands next to the river"
+  },
+  {
+    "id": "photo-5",
+    "image": "img/chair.jpeg",
+    "alt": "A man asleep on a deck chair next to a no entry road sign"
+  },
+  {
+    "id": "photo-6",
+    "image": "img/roundabout.jpeg",
+    "alt": "Two people sleeping on deck chairs in the middle of a roundabout"
+  },
+  {
+    "id": "photo-7",
+    "image": "img/beach.jpeg",
+    "alt": "Four friends lying on beach towels on the asphalt, seen from above"
+  },
+  {
+    "id": "photo-8",
+    "image": "img/painting.jpeg",
+    "alt": "A girl painting on a friend's back in a meadow"
+  }
+]

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Cutive+Mono&display=swap');
+
+/* CSS variables */
+:root {
+  --font-body: "Courier Prime", monospace;
+  --font-title: "Cutive Mono", monospace;
+  --paper: #f4f1ea;
+  --accent: #c8281e;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 400;
+  background-color: var(--paper);
+}
+
+h1, h2 {
+  font-family: var(--font-title);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.photo {
+  width: 100%;
+}
+
+/* Bootstrap overrides */
+.navbar-brand {
+  font-weight: 700;
+}
+
+.btn {
+  transition: 0.4s;
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent);
+}
